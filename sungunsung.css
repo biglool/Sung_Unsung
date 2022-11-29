@@ -1,0 +1,131 @@
+
+html,body {
+margin:0;
+padding:0;
+overflow-x:hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.butn1{
+	width:150px;
+	height:90%;
+	display:inline-block;
+	color: black;
+	margin: auto;
+	margin-left: 8.5%;
+	vertical-align: middle;
+	cursor: pointer;
+	border-radius:10%;
+
+}
+.butn{
+	height:100%;
+	display: table-cell; 
+	text-align:center;
+	
+}
+.butontext1{
+	height: 100%;
+	  padding: 8px 0px;
+  vertical-align: middle;
+			
+}
+.butontext{
+
+	display: flex;
+	vertical-align: middle;
+	height:90%;	
+	width:90%;
+	background-color: #202020;
+	color: white;
+	text-align:left;
+	margin:2% 5%;
+    align-items: center;
+	white-space: nowrap;
+    overflow: hidden;
+	cursor: pointer;
+
+}
+li {
+    list-style-type: none;
+	display: block;
+}
+div {
+  background-position: center center;   
+  background-repeat: no-repeat; 
+  background-size: contain;   
+  display: block;
+  width:100%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+
+}
+
+.axis {
+  background-image: url(imgs/axis.png); 
+  max-width:1850px;
+  max-height:51px;
+  aspect-ratio: 1850 / 51; 
+}
+.head {
+  background-image: url(imgs/head.png); 
+  background-repeat: repeat; 
+  max-width:1850px;
+  max-height:51px;
+  aspect-ratio: 1850 / 51; 
+  display: table;
+
+
+}
+.ruler {
+  background-image: url(imgs/ruler.png);
+  background-repeat: repeat; 
+  max-width:1850px;
+  max-height:1277px;
+  aspect-ratio: 1850 / 1277; 
+  
+  
+}
+.tema {
+  max-width:1850px;
+  max-height:50px;
+  aspect-ratio: 1850 / 50; 
+  text-align:center;
+ 
+}
+
+.titol {
+  background-image: url(imgs/titol.png);
+  background-repeat: no-repeat; 
+  max-width:1850px;
+  max-height:120px;
+  aspect-ratio: 1850 / 120; 
+  text-align:center;
+
+}
+
+@media all { 
+span { height: 5px; display: block } 
+.butn{ font-size: 10px; }
+.butontext1{  padding: 10px 0px;}
+.butn1{ font-size: 12px; }
+.order {  height:10px; aspect-ratio: 1;  }
+}
+@media  (max-width: 900px) { 
+span { height: 2px; display: block} 
+.butontext1{  padding: 5px 0px;}
+.butn{ font-size: 6px; }
+.butn{ font-size: 6px; }
+.order {  height:7px; aspect-ratio: 1; }
+}
+@media  (max-width: 550px) { 
+.butontext1{  padding: 2px 0px;}
+span { height: 0px; display: block} 
+.butn { font-size: 4px; }
+.butn{ font-size: 4px; }
+.order {  height:5px; aspect-ratio: 1; }
+}
